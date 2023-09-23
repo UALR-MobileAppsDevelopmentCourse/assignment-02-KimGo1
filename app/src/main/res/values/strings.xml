@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">HelloWorld_</string>
+    <string name="app_name">First App</string>
     <string name="default_msg">Mobile Apps Development at UALR</string>
     <string name="app_button">SHOW</string>
 </resources>

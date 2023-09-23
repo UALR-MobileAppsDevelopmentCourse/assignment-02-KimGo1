@@ -7,7 +7,7 @@
     android:background="#F0F4F4"
     android:backgroundTint="@color/material_dynamic_primary95"
     android:padding="12dp"
-    tools:context=".MainActivity">
+    tools:context="com.ualr.first_app.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -42,14 +42,28 @@
 
         <Button
             android:id="@+id/showMsgBtn"
-            android:layout_width="match_parent"
+            android:layout_width="240dp"
             android:layout_height="wrap_content"
             android:background="@color/material_dynamic_primary50"
             android:backgroundTint="@color/design_default_color_on_primary"
             android:onClick="onButtonClicked"
             android:text="@string/app_button"
+            android:textAlignment="textStart"
             android:textColor="@color/white"
             android:textSize="24sp" />
+
+        <!-- New "cleanBtn" button with the same properties as "showBtn" -->
+        <Button
+            android:id="@+id/cleanBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clean"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/showBtn"
+            android:layout_marginTop="16dp"
+            android:onClick="cleanTextField"/>
+         <!-- This line links the button to the method -->
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

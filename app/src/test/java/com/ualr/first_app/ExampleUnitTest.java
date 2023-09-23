@@ -1,4 +1,4 @@
-package com.ualr.helloworld_;
+package com.ualr.first_app;
 
 import org.junit.Test;
 

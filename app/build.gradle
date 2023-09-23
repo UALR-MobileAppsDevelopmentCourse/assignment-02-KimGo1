@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    namespace 'com.ualr.helloworld_'
-    compileSdk 33
+    namespace 'com.ualr.first_app'
+    compileSdk 34
 
     defaultConfig {
-        applicationId "com.ualr.helloworld_"
-        minSdk 23
-        targetSdk 33
+        applicationId "com.ualr.first_app"
+        minSdk 14 // Set the minimum SDK version to 14 (Android 4.0)
+        targetSdk 34 // Set the target SDK version to your desired version (e.g., 30)
         versionCode 1
         versionName "1.0"
 
